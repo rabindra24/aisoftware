@@ -7,8 +7,8 @@ const Offers = () => {
   return (
     <div className="sm:px-2 px-5" id="create">
       <p className="text-center text-primary py-8 sm:text-2xl">
-        “Always remember that you are absolutely unique. Just like everyone
-        else.”
+      &quotAlways remember that you are absolutely unique. Just like everyone
+        else.&quot
       </p>
       <div className="sm:px-10 flex flex-wrap gap-6 mx-auto py-5">
         {services.map((item, idx) => (
@@ -22,6 +22,7 @@ const Offers = () => {
                 width={800}
                 height={300}
                 className="w-full rounded-2xl"
+                alt={item.title}
               />
               <div className="flex py-5 px-2 justify-between">
                 <p className="text-primary">Count {item.id}</p>
