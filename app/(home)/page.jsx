@@ -1,6 +1,5 @@
 import Landing from "@/components/Landing";
 import Offers from "@/components/Offers";
-import Service from "@/components/service";
 import React from "react";
 
 const Home = () => {

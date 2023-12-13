@@ -1,8 +1,6 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import axios from "axios";
-
 
 const ImageGenerator = () => {
   const [url, setUrl] = useState("/demo.jpg");

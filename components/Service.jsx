@@ -1,5 +1,4 @@
 import React from "react";
-import { services } from "@/constants";
 import Image from "next/image";
 
 const Service = () => {
