@@ -33,23 +33,23 @@ const QandA = () => {
       <p className="px-3 text-center mb-2 font-mono">
         please wait for response it will take around 1 min to generate{" "}
       </p>
-      <form onSubmit={handleOnClick} className="flex flex-col items-center space-y-3">
+      <form onSubmit={handleOnClick} className="flex w-full  flex-col items-center space-y-3 px-5">
         <input
           type="text"
           value={question}
           onChange={(e) => setQuestion(e.target.value)}
-          className="md:w-[400px] mx-auto p-3 outline-none rounded-md shadow-lg"
+          className="md:w-[400px] w-full mx-auto p-3 outline-none rounded-md shadow-lg"
           placeholder="Enter your Question"
         />
         <button
-          className="text-white bg-[#3B82F6] border-0 py-2 px-10  hover:bg-indigo-600 rounded mt-5 text-lg md:w-[400px] text-center"
+          className="text-white bg-[#3B82F6] border-0 py-2 px-10  hover:bg-indigo-600 rounded mt-5 text-lg md:w-[400px] w-full text-center"
           type="submit"
         >
           Search
         </button>
 
         <textarea
-          className="md:w-[600px] mx-auto p-5 min-h-[300px] outline-none rounded-md shadow-lg"
+          className="md:w-[600px] mx-auto p-5 min-h-[300px] outline-none rounded-md shadow-lg w-full"
           value={answer}
           placeholder="Answer will appear here"
         />

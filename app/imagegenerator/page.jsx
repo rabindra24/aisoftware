@@ -45,7 +45,7 @@ const ImageGenerator = () => {
           src={url}
           width={400}
           height={600}
-          className="max-w-[270px] w-full h-auto"
+          className="max-w-[270px] w-full h-auto "
           alt="AI Image"
         />
         <a

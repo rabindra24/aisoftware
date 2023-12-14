@@ -38,7 +38,7 @@ const DatabaseQuery = () => {
       </p>
       <form
         onSubmit={handleOnClick}
-        className="flex flex-col items-center space-y-3 max-w-[800px] "
+        className="flex flex-col items-center space-y-3 md:max-w-[600px] w-full px-5"
       >
         <input
           type="text"
@@ -65,7 +65,7 @@ const DatabaseQuery = () => {
         )}
 
         <textarea
-          className="md:w-[600px] mx-auto p-5 min-h-[100px] outline-none rounded-md shadow-lg"
+          className="md:w-[600px] mx-auto p-5 min-h-[100px] outline-none rounded-md shadow-lg w-full"
           value={answer}
           placeholder="Answer will appear here"
         />
